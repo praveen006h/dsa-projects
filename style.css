@@ -1,0 +1,138 @@
+
+#body{
+    background: linear-gradient(to top left, #3429d6, #140042);
+    
+}
+
+.page-header{
+    width: 30%;
+    font-size: 300%;
+    font-weight: 100;
+    font-family: Arial;
+    position: absolute;
+    left: 34%;
+    top: 15%;
+    background: linear-gradient(to right, #fdfdfd 0%, #9299f5 100%);
+	-webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+
+#form1{
+    background-color: #ffffff10;
+    
+    border-radius: 20px;
+    align-items: center;
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    margin: 4%;
+    width: 50%;
+    height: 400;
+    
+}
+
+#name_div{
+    position: absolute;
+    left: 5% ;
+    top: 15%;
+    width: 40%;
+    color: #e1c8ec;
+}
+
+#name_textfield{
+    position: absolute;
+    right: -85%;
+    height: 100%;   
+    width: 80%;
+    border-width: 1px;
+    color: #00000099;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: #00000000;
+    transition: 0.4s;
+}
+#name_textfield:focus, #name_textfield:hover{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #b9b9b9;
+    color: #e1c8ec;
+    transition: 0.4s;
+}
+
+
+#email_div{
+    position: absolute;
+    left: 5% ;
+    top: 30%;
+    width: 40%;
+    color: #e1c8ec;
+}
+
+#email_textfield{
+    position: absolute;
+    right: -85%;
+    height: 100%;
+    width: 80%;
+    border-width: 1px;
+    color: #00000099;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: #00000000;
+    transition: 0.4s;
+}
+#email_textfield:focus, #email_textfield:hover{
+    outline: none;
+    border: none;
+    border-color: #000000;
+    border-bottom: 1px solid #b9b9b9;
+    border-left: 20%;
+    color: #e1c8ec;
+    transition: 0.3s;
+}
+
+
+#submit_btn{
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    left: 20%;
+    top: 75%;
+    
+}
+
+#cancel_btn{
+    width: 20%;
+    height: 10%;
+    position: absolute; 
+    left: 50%;
+    top: 75%;
+
+}
+
+.textf::placeholder {
+    color: #acacac;
+    font: red;
+    
+} 
+.btn{
+    background-color: #ffffff18;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.btn:focus{
+    color:#000000;
+    background-color: #fdfdfd94;
+    transition: 0.4s;
+}
+.btn:hover{
+    color:#000000;
+    background-color: #fdfdfd94;
+    transition: 0.4s;  
+}
+
+
