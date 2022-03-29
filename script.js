@@ -26,6 +26,9 @@ function submit_(){
             return false;
         }
     }*/
-    document.body = "Inga onu illa kelambu!";
     
+}
+
+function kelambu(){
+    document.body.innerHTML = "sadfadsfasdfa";
 }
