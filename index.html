@@ -1,6 +1,22 @@
-<!doctype = html>
-
 <html>
+<head>
+    <meta meta name="viewport" content=
+            "width=device-width, user-scalable=no" />
+    <title>My Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script1.js"></script>
+</head>
 
+<body id = "body">
+    <h1 align="center" class="page-header">Fill the Details</h1>
+    <form autocomplete = off id = "form1" spellcheck="false" action = "Home_page.html">
+        <div id ="name_div" >Enter Your Name:<input id = "name_textfield" class = "textf" type="text" placeholder = "Name" onfocus="this.value=''"
+        ></div>
+        <div id ="email_div">Enter Your Email Address:<input id = "email_textfield" class = "textf" type="text" placeholder = "Email Address" onfocus="this.value=''" 
+        ></div>
+        <button id = "submit_btn" class = "btn" type="submit" onclick="">Submit</button>
+        <button id = "cancel_btn" class = "btn" type="button">Cancel</button>
+    </form>
+</body>
 
 </html>
