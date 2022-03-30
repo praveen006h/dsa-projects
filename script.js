@@ -1,6 +1,6 @@
 
 function submit_(){
-    /*console.log("welcome");
+    console.log("welcome");
     let name = document.getElementById("name_textfield");
     let email = document.getElementById("email_textfield");
     if (name.value == "" | name.value == "Name"){
@@ -25,10 +25,11 @@ function submit_(){
             email.focus() ;
             return false;
         }
-    }*/
+    }
     
 }
 
 function kelambu(){
+    
     document.body.innerHTML = "sadfadsfasdfa";
 }

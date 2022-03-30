@@ -5,19 +5,20 @@
             "width=device-width, user-scalable=no" />
     <title>My Form</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script1.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
-<body id = "body">
+<body id = "body">  
     <h1 align="center" class="page-header">Fill the Details </h1>
-    <h6 align="center" >PC la open panra venna!!!</h6>
+    
     <form autocomplete = off id = "form1" spellcheck="false" action="home_page.html" method="get">
         <div id ="name_div" >Enter Your Name:<input id = "name_textfield" class = "textf" type="text" placeholder = "Name" onfocus="this.value=''"
         ></div>
         <div id ="email_div">Enter Your Email Address:<input id = "email_textfield" class = "textf" type="text" placeholder = "Email Address" onfocus="this.value=''" 
         ></div>
-        <button id = "submit_btn" class = "btn" type="submit" onclick="submit_()">Submit</button>
-        <button id = "cancel_btn" class = "btn" type="button">Cancel</button>
+        
+        <input type="button" id = "submit_btn" class = "btn" type="submit" action="submit_()" value="Submit">
+        <button id = "cancel_btn" class = "btn" type="button" onclick="kelambu()">Cancel</button>
     </form>
     <!--input type="button" id="submit_btn" class="btn" c="home_page.html" value="Click me!!" -->
 </body>

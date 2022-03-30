@@ -124,11 +124,7 @@
     border-radius: 10px;
     transition: 0.4s;
 }
-.btn:focus{
-    color:#000000;
-    background-color: #fdfdfd94;
-    transition: 0.4s;
-}
+
 .btn:hover{
     color:#000000;
     background-color: #fdfdfd94;
