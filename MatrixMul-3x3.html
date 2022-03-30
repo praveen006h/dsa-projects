@@ -5,6 +5,10 @@
         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
         width: 15%;
     }
+    #matB{
+        left : 50%;
+        top : 50%;
+    }
 </style>
 
 </head>
@@ -13,7 +17,7 @@
 <h1 align="center">3x3 Matrix Multiplier</h1>
 
 Enter matrix A:
-<table>
+<table id="matA">
     <tr>
     <td> <input class ="tf" name="a11" placeholder="0">  <input class="tf" name="a12" placeholder="0"> <input class="tf" name="a13" placeholder="0"> </td>
     </tr>
@@ -26,7 +30,7 @@ Enter matrix A:
 </table>
 <br>
 Enter matrix B:
-<table>
+<table id="matB">
     <tr>
     <td> <input class ="tf" name="b11" placeholder="0">  <input class="tf" name="b12" placeholder="0"> <input class="tf" name="b13" placeholder="0"> </td>
     </tr>
@@ -39,7 +43,7 @@ Enter matrix B:
 </table>
 <br><br>
 Result:(A x B)
-<table name="result">
+<table id="matC" name="result">
     <table>
         <tr>
         <td> <input class ="tf" name="c11" placeholder="0">  <input class="tf" name="c12" placeholder="0"> <input class="tf" name="c13" placeholder="0"> </td>
