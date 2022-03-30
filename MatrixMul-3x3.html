@@ -5,10 +5,7 @@
         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
         width: 15%;
     }
-    #matB{
-        left : 50%;
-        top : 50%;
-    }
+    
 </style>
 
 </head>
@@ -41,7 +38,8 @@ Enter matrix B:
     <td> <input class ="tf" name="b31" placeholder="0">  <input class="tf" name="b32" placeholder="0"> <input class="tf" name="b33" placeholder="0"> </td>
     </tr> 
 </table>
-<br><br>
+<br>
+<input id="m_btn" type="button" value="Multiply" onclick="multiply()"><br><br>
 Result:(A x B)
 <table id="matC" name="result">
     <table>
